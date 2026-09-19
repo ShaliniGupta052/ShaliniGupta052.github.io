@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+```
+<title>Shalini Gupta | PhD Research Scholar</title>
+
+<meta name="description" content="Academic profile of Shalini Gupta, PhD Research Scholar in Computational Biology and Bioinformatics at IIT Jammu.">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        line-height: 1.7;
+        color: #263238;
+        background: #f8fafc;
+    }
+
+    /* Navigation */
+    nav {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        background: #ffffff;
+        border-bottom: 1px solid #e5e7eb;
+        padding: 15px 8%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-name {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #16324f;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #374151;
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+
+    nav a:hover {
+        color: #1769aa;
+    }
+
+    /* General */
+    section {
+        max-width: 1100px;
+        margin: auto;
+        padding: 80px 30px;
+    }
+
+    section h2 {
+        font-size: 2rem;
+        color: #16324f;
+        margin-bottom: 30px;
+        border-bottom: 3px solid #1769aa;
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    p {
+        margin-bottom: 18px;
+        font-size: 1.02rem;
+    }
+
+    /* Home */
+    #home {
+        min-height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(
+            135deg,
+            #eef6fb,
+            #ffffff
+        );
+    }
+
+    .hero {
+        width: 100%;
+        max-width: 1100px;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .hero h1 {
+        font-size: 3.4rem;
+        color: #16324f;
+        margin-bottom: 10px;
+    }
+
+    .hero h3 {
+        font-size: 1.35rem;
+        font-weight: 500;
+        color: #4b5563;
+        margin-bottom: 8px;
+    }
+
+    .hero p {
+        color: #59636e;
+        max-width: 800px;
+        margin: 10px auto 25px;
+    }
+
+    .research-interests {
+        margin: 25px auto;
+        max-width: 800px;
+    }
+
+    .research-interests h4 {
+        font-size: 1.2rem;
+        color: #16324f;
+        margin-bottom: 15px;
+    }
+
+    .interest-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        list-style: none;
+    }
+
+    .interest-list li {
+        background: #ffffff;
+        border: 1px solid #cbd5e1;
+        border-radius: 20px;
+        padding: 7px 15px;
+        font-size: 0.9rem;
+    }
+
+    /* Research */
+    #research {
+        background: #ffffff;
+    }
+
+    .research-box {
+        margin-bottom: 35px;
+    }
+
+    .research-box h3 {
+        color: #1769aa;
+        margin-bottom: 12px;
+        font-size: 1.35rem;
+    }
+
+    /* Tools */
+    .tool-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .tool {
+        background: #edf4f8;
+        color: #16324f;
+        padding: 8px 15px;
+        border-radius: 6px;
+        font-size: 0.9rem;
+        border: 1px solid #d6e3eb;
+    }
+
+    /* Education */
+    .education-item {
+        border-left: 3px solid #1769aa;
+        padding-left: 25px;
+        margin-bottom: 35px;
+    }
+
+    .education-item h3 {
+        color: #16324f;
+        font-size: 1.2rem;
+    }
+
+    .education-item .degree {
+        font-style: italic;
+        color: #4b5563;
+    }
+
+    .education-item .date {
+        color: #1769aa;
+        font-weight: 600;
+        margin: 5px 0;
+    }
+
+    /* Projects */
+    #projects {
+        background: #f8fafc;
+    }
+
+    .project-category {
+        margin-bottom: 40px;
+    }
+
+    .project-category h3 {
+        color: #1769aa;
+        margin-bottom: 20px;
+    }
+
+    .project-list {
+        list-style: none;
+    }
+
+    .project-list li {
+        background: #ffffff;
+        margin-bottom: 12px;
+        padding: 15px 20px;
+        border-left: 4px solid #1769aa;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    }
+
+    /* Publications */
+    .publication {
+        margin-bottom: 28px;
+        padding: 20px;
+        background: #ffffff;
+        border-radius: 8px;
+        border: 1px solid #e5e7eb;
+    }
+
+    .publication a {
+        color: #1769aa;
+        text-decoration: none;
+    }
+
+    .publication a:hover {
+        text-decoration: underline;
+    }
+
+    /* Awards */
+    .award-list {
+        list-style: none;
+    }
+
+    .award-list li {
+        padding: 15px 20px;
+        margin-bottom: 12px;
+        background: #ffffff;
+        border-left: 4px solid #1769aa;
+        border-radius: 4px;
+    }
+
+    /* CV */
+    #cv {
+        text-align: center;
+        background: #ffffff;
+    }
+
+    .cv-button {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 12px 28px;
+        background: #1769aa;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 6px;
+        font-weight: 600;
+    }
+
+    .cv-button:hover {
+        background: #125586;
+    }
+
+    /* Contact */
+    #contact {
+        background: #f8fafc;
+    }
+
+    .contact-list {
+        list-style: none;
+        line-height: 2.2;
+    }
+
+    .contact-list a {
+        color: #1769aa;
+        text-decoration: none;
+    }
+
+    .contact-list a:hover {
+        text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+        background: #16324f;
+        color: #ffffff;
+        text-align: center;
+        padding: 25px;
+        font-size: 0.9rem;
+    }
+
+    /* Mobile */
+    @media (max-width: 800px) {
+
+        nav {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        nav ul {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .hero h1 {
+            font-size: 2.4rem;
+        }
+
+        .hero h3 {
+            font-size: 1.05rem;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<!-- ==================== NAVIGATION ==================== -->
+
+<nav>
+    <div class="nav-name">Shalini Gupta</div>
+
+```
+<ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#awards">Awards</a></li>
+    <li><a href="#cv">CV</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+```
+
+</nav>
+
+<!-- ==================== HOME ==================== -->
+
+<section id="home">
+
+```
+<div class="hero">
+
+    <h1>Shalini Gupta</h1>
+
+    <h3>
+        PhD Research Scholar
+    </h3>
+
+    <p>
+        Department of Biosciences and Bioengineering<br>
+        Indian Institute of Technology Jammu, J&K, India
+    </p>
+
+    <div class="research-interests">
+
+        <h4>Research Interests</h4>
+
+        <ul class="interest-list">
+            <li>Single-cell Multi-omics</li>
+            <li>Computational Genomics</li>
+            <li>Gene Regulatory Networks</li>
+            <li>lncRNA Biology</li>
+            <li>scRNA-seq &amp; scATAC-seq</li>
+            <li>Transcription Factor Regulation</li>
+            <li>Reproductive Biology &amp; Aging</li>
+        </ul>
+
+    </div>
+
+</div>
+```
+
+</section>
+
+<!-- ==================== RESEARCH ==================== -->
+
+<section id="research">
+
+```
+<h2>Research</h2>
+
+<div class="research-box">
+
+    <p>
+        My research focuses on understanding cellular heterogeneity,
+        plasticity, and gene regulation in female reproductive tissues
+        using single-cell multi-omics approaches. I am particularly
+        interested in how transcriptional, epigenetic, and regulatory
+        mechanisms contribute to changes associated with reproductive
+        aging and disease.
+    </p>
+
+    <p>
+        I develop computational pipelines using R and Python.
+        By integrating transcriptomic and chromatin-level information,
+        I aim to identify regulatory elements, transcription factors,
+        and gene regulatory networks (GRNs) that define distinct
+        cellular states.
+    </p>
+
+    <p>
+        A major focus of my research is the identification of
+        cell-type-specific intergenic long non-coding RNAs (lncRNAs)
+        and their potential regulatory roles in female reproductive
+        tissues. I further aim to extend these findings toward
+        disease-relevant signatures and in-silico perturbation
+        analyses, providing insights into how dysregulated regulatory
+        programs may contribute to reproductive disorders and
+        endometrial disease.
+    </p>
+
+    <p>
+        In addition to my single-cell multi-omics research, I work
+        with other next-generation sequencing datasets, including
+        large-scale genomic data analysis, The Cancer Genome Atlas
+        (TCGA), bulk RNA sequencing, dsRIP sequencing, ChIP-seq,
+        alternative splicing, and transcriptomic datasets.
+    </p>
+
+</div>
+
+
+<div class="research-box">
+
+    <h3>Bioinformatics Tools</h3>
+
+    <div class="tool-grid">
+
+        <span class="tool">R</span>
+        <span class="tool">Python</span>
+        <span class="tool">Seurat</span>
+        <span class="tool">Signac</span>
+        <span class="tool">CellChat</span>
+        <span class="tool">SCENIC+</span>
+        <span class="tool">Scanpy</span>
+        <span class="tool">ArchR</span>
+        <span class="tool">DESeq2</span>
+        <span class="tool">rMATS</span>
+        <span class="tool">pyGenomeTracks</span>
+        <span class="tool">TCGA Analysis</span>
+        <span class="tool">Single-cell RNA-seq</span>
+        <span class="tool">Single-cell ATAC-seq</span>
+        <span class="tool">Chromatin Accessibility</span>
+        <span class="tool">Gene Regulatory Networks</span>
+
+    </div>
+
+</div>
+
+
+<div class="research-box">
+
+    <h3>Skills</h3>
+
+    <ul>
+        <li>Big Data Analytics</li>
+        <li>R Programming</li>
+        <li>Python — Beginner Level</li>
+        <li>Next-generation Sequencing Data Analysis</li>
+        <li>Single-cell Multi-omics Analysis</li>
+        <li>Microbiological Techniques</li>
+        <li>Mammalian Cell Culture</li>
+    </ul>
+
+</div>
+```
+
+</section>
+
+<!-- ==================== EDUCATION ==================== -->
+
+<section id="education">
+
+```
+<h2>Education</h2>
+
+<div class="education-item">
+
+    <h3>
+        Indian Institute of Technology Jammu, J&amp;K, India
+    </h3>
+
+    <div class="degree">
+        PhD
+    </div>
+
+    <div class="date">
+        August 2024 – Ongoing
+    </div>
+
+</div>
+
+
+<div class="education-item">
+
+    <h3>
+        Central University of Jammu, J&amp;K, India
+    </h3>
+
+    <div class="degree">
+        Integrated B.Sc. (Hons.) M.Sc. Zoology
+    </div>
+
+    <div class="date">
+        August 2019 – July 2024
+    </div>
+
+    <p>
+        <strong>CGPA:</strong> 9.86
+    </p>
+
+</div>
+
+
+<div class="education-item">
+
+    <h3>
+        Presentation Convent Higher Secondary School, Jammu, J&amp;K, India
+    </h3>
+
+    <div class="degree">
+        Higher Secondary Education
+    </div>
+
+    <div class="date">
+        April 2016 – May 2018
+    </div>
+
+    <p>
+        <strong>Percentage:</strong> 83.4%
+    </p>
+
+</div>
+
+
+<div class="education-item">
+
+    <h3>
+        Sacred Heart Senior Secondary School, Dalhousie, HP, India
+    </h3>
+
+    <div class="degree">
+        Matriculation (8th–10th Standard)
+    </div>
+
+    <div class="date">
+        March 2013 – March 2016
+    </div>
+
+    <p>
+        <strong>Percentage:</strong> 90.1%
+    </p>
+
+</div>
+```
+
+</section>
+
+<!-- ==================== PROJECTS ==================== -->
+
+<section id="projects">
+
+```
+<h2>Projects</h2>
+
+<div class="project-category">
+
+    <h3>Ongoing Projects</h3>
+
+    <ul class="project-list">
+
+        <li>
+            <strong>Single-cell Multi-omics Analysis for Female
+            Reproductive Tissues</strong>
+        </li>
+
+        <li>
+            <strong>Alternative Splicing of Histone Deacetylase</strong>
+            — RNA Sequencing, dsRIP and ChIP-seq
+        </li>
+
+        <li>
+            <strong>Subtype-specific Transcriptional Programs in
+            Endometrial Cancer</strong>
+        </li>
+
+    </ul>
+
+</div>
+
+
+<div class="project-category">
+
+    <h3>Other Projects</h3>
+
+    <ul class="project-list">
+
+        <li>
+            <strong>Single-cell Sequencing in Atherosclerosis</strong>
+            (2026)
+        </li>
+
+        <li>
+            <strong>lncRNAs Associated with Progressive Arterial
+            Phenotype in Hutchinson–Gilford Progeria Syndrome</strong>
+            (2026)
+        </li>
+
+        <li>
+            <strong>Single-cell RNA-seq Analysis for Fresh vs Fixed
+            Endometrial Tissue</strong>
+            (2025)
+        </li>
+
+        <li>
+            <strong>
+                The Effects of Climate Change on the Marine Ichthyofauna
+                Having Antifreeze Glycoproteins: A Review
+            </strong>
+            — submitted to the Department of Zoology,
+            Central University of Jammu (2021)
+        </li>
+
+        <li>
+            <strong>
+                Occurrence and Molecular Characterisation of
+                Antimicrobial Resistance Genes in the Industrial Area
+                (Bari-Brahmana), Jammu, J&amp;K
+            </strong>
+            — submitted to the Department of Zoology,
+            Central University of Jammu (2024)
+        </li>
+
+    </ul>
+
+</div>
+```
+
+</section>
+
+<!-- ==================== PUBLICATIONS ==================== -->
+
+<section id="publications">
+
+```
+<h2>Publications</h2>
+
+
+<div class="publication">
+
+    <p>
+        Merino, L. G., Subhash, S., Whisenant, D.,
+        <strong>Gupta, S.</strong>, Revêchon, G., &amp; Eriksson, M.
+        (2026).
+        <strong>
+            Dysregulated lncRNAs are associated with the progressive
+            arterial phenotype in Hutchinson–Gilford Progeria Syndrome.
+        </strong>
+        <em>GeroScience</em>, 1–20.
+    </p>
+
+    <p>
+        <a href="https://doi.org/10.1007/s11357-026-02469-4"
+           target="_blank">
+            DOI: 10.1007/s11357-026-02469-4
+        </a>
+    </p>
+
+</div>
+
+
+<div class="publication">
+
+    <p>
+        Barbi, M., <strong>Gupta, S.</strong>, Subhash, S.,
+        Gowthaman, D., Katcher, A., Gorman, M., ... &amp; Beyaz, S.
+        (2026).
+        <strong>
+            A comprehensive endometrial cancer organoid biobank reveals
+            subtype-specific transcriptional programs and therapeutic
+            targets.
+        </strong>
+        <em>Cancer Research</em>, 86(7_Supplement), 4853–4853.
+    </p>
+
+    <p>
+        <a href="https://doi.org/10.1158/1538-7445.AM2026-4853"
+           target="_blank">
+            DOI: 10.1158/1538-7445.AM2026-4853
+        </a>
+    </p>
+
+</div>
+
+
+<div class="publication">
+
+    <p>
+        <strong>Gupta, S.</strong>, Ladol, S. (2024).
+        <strong>
+            The impact of climate change on polar ichthyofauna
+            biodiversity.
+        </strong>
+        <em>
+            Biomarkers in Environmental and Human Health Biomonitoring:
+            An Integrated Perspective
+        </em>, 1st Edition, 215–226.
+        ISBN 9780443138607.
+    </p>
+
+    <p>
+        <a href="https://doi.org/10.1016/B978-0-443-13860-7.00022-7"
+           target="_blank">
+            DOI: 10.1016/B978-0-443-13860-7.00022-7
+        </a>
+    </p>
+
+</div>
+```
+
+</section>
+
+<!-- ==================== AWARDS ==================== -->
+
+<section id="awards">
+
+```
+<h2>Awards &amp; Achievements</h2>
+
+<ul class="award-list">
+
+    <li>
+        <strong>Joint CSIR-UGC NET JRF</strong>
+        — December 2022 – June 2023, Life Sciences;
+        <strong>AIR 117</strong>
+    </li>
+
+    <li>
+        <strong>GATE Life Sciences 2023</strong>
+        — <strong>AIR 3093</strong>
+    </li>
+
+    <li>
+        <strong>GATE Life Sciences 2024</strong>
+        — <strong>AIR 2063</strong>
+    </li>
+
+</ul>
+```
+
+</section>
+
+<!-- ==================== CV ==================== -->
+
+<section id="cv">
+
+```
+<h2>Curriculum Vitae</h2>
+
+<p>
+    For a detailed overview of my academic background, research
+    experience, projects, publications, and skills, please refer
+    to my curriculum vitae.
+</p>
+
+<!-- Replace cv.pdf with the actual filename of your CV -->
+
+<a class="cv-button"
+   href="cv.pdf"
+   target="_blank">
+    Download CV
+</a>
+```
+
+</section>
+
+<!-- ==================== CONTACT ==================== -->
+
+<section id="contact">
+
+```
+<h2>Contact</h2>
+
+<ul class="contact-list">
+
+    <li>
+        <strong>Email:</strong>
+        <a href="mailto:gshalini052@gmail.com">
+            gshalini052@gmail.com
+        </a>
+    </li>
+
+    <li>
+        <strong>GitHub:</strong>
+        <a href="YOUR_GITHUB_URL"
+           target="_blank">
+            https://github.com/ShaliniGupta052
+        </a>
+    </li>
+
+    <li>
+        <strong>LinkedIn:</strong>
+        <a href="YOUR_LINKEDIN_URL"
+           target="_blank">
+            https://www.linkedin.com/in/shalini-gupta-221a6a320
+        </a>
+    </li>
+
+    <li>
+        <strong>ORCID:</strong>
+        <a href="YOUR_ORCID_URL"
+           target="_blank">
+            https://orcid.org/0009-0006-3373-3499
+        </a>
+    </li>
+
+</ul>
+```
+
+</section>
+
+<!-- ==================== FOOTER ==================== -->
+
+<footer>
+
+```
+<p>
+    © 2026 Shalini Gupta. All rights reserved.
+</p>
+
+<p>
+    PhD Research Scholar | Computational Biology &amp; Bioinformatics
+</p>
+```
+
+</footer>
+
+</body>
+</html>
